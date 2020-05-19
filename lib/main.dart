@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,7 +9,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
-        body: Container(),
+        body: SafeArea(
+            child: Column(
+          children: <Widget>[
+            CircleAvatar(
+              radius: 25.0,
+              backgroundImage: AssetImage('images/profile.jpg'),
+            )
+          ],
+        )),
       ),
     );
   }
