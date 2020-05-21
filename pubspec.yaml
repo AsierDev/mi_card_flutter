@@ -45,9 +45,9 @@ flutter:
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
 
-    - family: SpaceMono
+    - family: Nunito
       fonts:
-          - asset: fonts/SpaceMono-Regular.ttf
+          - asset: fonts/Nunito-Regular.ttf
 
 
   # For details regarding fonts from package dependencies,
